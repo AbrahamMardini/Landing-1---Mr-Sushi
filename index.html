@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Raspa y Gana un Nekki | Mr. Sushi</title>
+  <meta name="description" content="Compra S/50 o más en Mr. Sushi, ingresa tu código y raspa para ganar un Nekki, el plush exclusivo de la marca.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Anton&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="header__inner">
+      <a class="header__logo" href="https://www.mrsushi.pe/pedir" target="_blank" rel="noopener" aria-label="Mr. Sushi, ir a la web">
+        <img src="assets/svg/logo.svg" alt="MR·SUSHI" width="171" height="49">
+      </a>
+      <nav class="header__icons" aria-label="Accesos rápidos">
+        <a href="https://www.mrsushi.pe/pedir" target="_blank" rel="noopener" aria-label="Buscar"><img src="assets/svg/ic_search.svg" alt="" width="26" height="26"></a>
+        <a href="https://www.mrsushi.pe/pedir" target="_blank" rel="noopener" aria-label="Locales"><img src="assets/svg/ic_pin.svg" alt="" width="18" height="26"></a>
+        <a href="https://www.mrsushi.pe/pedir" target="_blank" rel="noopener" aria-label="Mi cuenta"><img src="assets/svg/ic_user.svg" alt="" width="21" height="21"></a>
+        <a href="https://www.mrsushi.pe/pedir" target="_blank" rel="noopener" aria-label="Carrito"><img src="assets/svg/ic_cart.svg" alt="" width="25" height="26"></a>
+        <button class="header__menu" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><img src="assets/svg/ic_menu.svg" alt="" width="24" height="24"></button>
+      </nav>
+    </div>
+    <div class="menu" id="menu" hidden>
+      <a href="#ganadores">Ganadores</a>
+      <a href="#como-participo">¿Cómo participo?</a>
+      <a href="#nekkis">Nuestros Nekkis</a>
+      <a href="#participa">Participa aquí</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <h1 class="hero__title">
+        <span class="sr-only">Raspa y gana un Nekki. Plush exclusivo.</span>
+        <img class="hero__raspa" src="assets/svg/h_raspa.svg" alt="" width="699" height="89">
+        <img class="hero__nekki" src="assets/svg/h_nekki.svg" alt="" width="975" height="326">
+        <img class="hero__plush" src="assets/svg/h_plush.svg" alt="" width="456" height="59">
+      </h1>
+      <img class="hero__photo" src="assets/img/hero_nekkis.webp" alt="Varios peluches Nekki rojos flotando sobre fondo negro" width="1920" height="1322">
+    </section>
+
+    <!-- ============ ADQUIÉRELO YA ============ -->
+    <section class="promo">
+      <div class="paper promo__paper">
+        <div class="promo__inner">
+          <img class="promo__hand reveal" src="assets/img/nekki_mano.webp" alt="Mano sosteniendo un Nekki rojo" width="900" height="1127">
+          <div class="promo__text reveal">
+            <p class="promo__kicker">Por tiempo limitado</p>
+            <h2><span class="sr-only">Adquiérelo ya</span><img class="promo__title" src="assets/svg/h_adquierelo.svg" alt="" width="734" height="120"></h2>
+            <a class="btn btn--red" href="#como-participo">Conoce cómo participar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CINTA ============ -->
+    <div class="ribbon" aria-hidden="true"><div class="ribbon__track"></div></div>
+
+    <!-- ============ GANADORES ============ -->
+    <section class="winners" id="ganadores">
+      <h2 class="section-title reveal"><span class="sr-only">Nuestros ganadores</span><img src="assets/svg/h_ganadores.svg" alt="" width="579" height="195" style="width:min(579px,78vw)"></h2>
+
+      <div class="carousel reveal" data-carousel>
+        <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Testimonio anterior">‹</button>
+        <div class="carousel__stage" aria-live="polite">
+          <article class="card" data-i="0">
+            <img class="card__rays" src="assets/svg/rays_red.svg" alt="" width="85" height="43">
+            <h3>André T***</h3>
+            <p>“Fui con mis amigos para celebrar mi cumpleaños y me informaron de la promoción, decidí probar mi suerte y gané!! Gracias por el regalo, de por sí soy amante de los peluches”</p>
+          </article>
+          <article class="card" data-i="1">
+            <img class="card__rays" src="assets/svg/rays_red.svg" alt="" width="85" height="43">
+            <h3>Julieta L***</h3>
+            <p>“Muy lindooo. No sabía que también tenían peluches, ojalá la próxima que vaya sigan en promoción”</p>
+          </article>
+          <article class="card" data-i="2">
+            <img class="card__rays" src="assets/svg/rays_red.svg" alt="" width="85" height="43">
+            <h3>Marianne S***</h3>
+            <p>“No pensaba ganar!! mi hija amó el peluche. Escogió el rojito principal se ve que es de buena calidad!! Muy bonito”</p>
+          </article>
+        </div>
+        <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Siguiente testimonio">›</button>
+        <div class="carousel__dots" role="tablist" aria-label="Elegir testimonio"></div>
+      </div>
+    </section>
+
+    <!-- ============ ¿CÓMO PARTICIPO? ============ -->
+    <section class="steps" id="como-participo">
+      <h2 class="section-title reveal"><span class="sr-only">¿Cómo participo?</span><img src="assets/svg/h_participo.svg" alt="" width="763" height="73" style="width:min(763px,88vw)"></h2>
+      <div class="steps__grid">
+        <div class="steps__text reveal">
+          <ol class="steps__list">
+            <li>Realiza una compra igual o mayor a S/50 soles en Mr. Sushi</li>
+            <li>Al recibir tu comprobante de pago, visualiza el código canjeable de 6 cifras ubicado en la parte inferior</li>
+            <li>Ingresa a nuestra web <strong>WWW.MRSUSHI.PE</strong> e inicia sesión o crea una cuenta</li>
+            <li>Rellena con el código en el apartado y ¡suerte!</li>
+          </ol>
+          <p class="steps__note">*Promoción valida desde el 01 de Noviembre al 20 de Diciembre*</p>
+          <a class="btn btn--red" href="#participa">¡Quiero participar!</a>
+        </div>
+        <figure class="steps__receipt reveal">
+          <img src="assets/img/boleta.webp" alt="Boleta de Mr. Sushi con el código único canjeable 64DU2J resaltado en la parte inferior" width="700" height="875">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ NUESTROS NEKKIS ============ -->
+    <section class="nekkis" id="nekkis">
+      <div class="paper paper--tall">
+        <h2 class="section-title reveal"><span class="sr-only">Nuestros Nekkis</span><img src="assets/svg/h_nekkis.svg" alt="" width="599" height="191" style="width:min(599px,80vw)"></h2>
+        <ul class="nekkis__row">
+          <li class="reveal"><img src="assets/img/nekki_rojo.webp" alt="Nekki rojo con ojos cerrados y palitos de sushi" width="560" height="889"></li>
+          <li class="reveal"><img src="assets/img/nekki_negro.webp" alt="Nekki negro con lentes de sol" width="560" height="880"></li>
+          <li class="reveal"><img src="assets/img/nekki_corazon.webp" alt="Nekki rojo con ojos de corazón" width="600" height="884"></li>
+          <li class="reveal"><img src="assets/img/nekki_panda.webp" alt="Nekki negro con ojos brillantes" width="600" height="860"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ NEKKI LOVERS ============ -->
+    <section class="lovers">
+      <div class="lovers__top">
+        <h2 class="lovers__title reveal"><span class="sr-only">Lo mejor para nuestros Nekki lovers</span><img src="assets/svg/h_lovers.svg" alt="" width="419" height="487"></h2>
+        <div class="lovers__cards reveal">
+          <img class="lovers__card lovers__card--a" src="assets/img/textura_felpa.webp" alt="Detalle de la felpa roja del peluche" width="560" height="560">
+          <img class="lovers__card lovers__card--b" src="assets/img/nekki_rostro.webp" alt="Detalle del rostro bordado de un Nekki con lentes" width="560" height="803">
+        </div>
+      </div>
+      <ul class="lovers__list reveal">
+        <li>Confeccionado con tela de felpa y costuras reforzadas para ayudar a conservar su forma y soportar el uso cotidiano.</li>
+        <li>Su base redondeada facilita sostenerlo, transportarlo y colocarlo en escritorios, camas o estanterías.</li>
+        <li>Puede limpiarse superficialmente con un paño húmedo y jabón suave.</li>
+        <li>Su exterior de felpa ofrece una sensación delicada y agradable al tacto, ideal para abrazar y acariciar.</li>
+        <li>Su color rojo intenso y su diseño de gatito aportan un toque divertido y llamativo a cualquier espacio ;)</li>
+      </ul>
+    </section>
+
+    <!-- ============ PARTICIPA AQUÍ ============ -->
+    <section class="join" id="participa">
+      <div class="paper paper--tall">
+        <div class="join__inner">
+          <div class="join__form reveal">
+            <h2><span class="sr-only">Participa aquí</span><img class="join__title" src="assets/svg/h_participa.svg" alt="" width="535" height="383"></h2>
+            <form id="code-form" novalidate>
+              <label class="join__label" for="code">Ingresa tus datos y valida el código</label>
+              <input id="code" name="code" type="text" inputmode="text" autocomplete="off" maxlength="6" placeholder="*Código de 6 cifras" aria-describedby="code-msg">
+              <p class="join__msg" id="code-msg" role="alert"></p>
+              <button class="btn btn--red btn--wide" type="submit">Enviar</button>
+            </form>
+          </div>
+          <img class="join__sun" src="assets/svg/sunburst.svg" alt="" width="770" height="770">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CINTA ============ -->
+    <div class="ribbon" aria-hidden="true"><div class="ribbon__track"></div></div>
+
+    <!-- ============ TRANQUIIII ============ -->
+    <section class="calm" id="tranqui">
+      <h2 class="calm__title reveal">
+        <span class="sr-only">Si no lo lograste esta vez... tranquiiiii</span>
+        <img class="calm__kanji" src="assets/svg/h_kanji.svg" alt="" width="677" height="138">
+        <img class="calm__big" src="assets/svg/h_tranqui.svg" alt="" width="1167" height="249">
+      </h2>
+      <p class="calm__lead reveal">Te obsequiamos un 15% de descuento y delivery gratis en tu próxima compra por la web</p>
+      <p class="calm__note reveal">* Válido hasta 7 días después de participar</p>
+      <a class="btn btn--red btn--carta reveal" href="https://www.mrsushi.pe/pedir" target="_blank" rel="noopener">
+        <span class="sr-only">Ver carta completa</span><img src="assets/svg/btn_carta.svg" alt="" width="339" height="41">
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <a class="footer__cat" href="https://www.mrsushi.pe/pedir" target="_blank" rel="noopener" aria-label="Mr. Sushi">
+        <img src="assets/svg/cat_footer.svg" alt="" width="190" height="248">
+      </a>
+      <nav class="footer__col" aria-label="Conócenos">
+        <h3>Conócenos</h3>
+        <a href="https://www.mrsushi.pe" target="_blank" rel="noopener">Nosotros</a>
+        <a href="https://www.mrsushi.pe" target="_blank" rel="noopener">¡Se parte del grupo!</a>
+        <a href="https://www.mrsushi.pe/documentos-legales/termsAndConditions" target="_blank" rel="noopener">Términos y condiciones</a>
+        <a href="https://www.mrsushi.pe/documentos-legales/privacy" target="_blank" rel="noopener">Política de privacidad</a>
+      </nav>
+      <nav class="footer__col" aria-label="Redes sociales">
+        <h3>Redes Sociales</h3>
+        <a href="https://www.instagram.com/mrsushi.peru/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/MrSushi.Peru" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.tiktok.com/@mrsushi.peru" target="_blank" rel="noopener">Tiktok</a>
+      </nav>
+      <nav class="footer__col" aria-label="Mi cuenta">
+        <h3>Mi cuenta</h3>
+        <a href="https://www.mrsushi.pe/pedir" target="_blank" rel="noopener">Pedir</a>
+        <a href="https://www.mrsushi.pe/pedir" target="_blank" rel="noopener">Iniciar sesión</a>
+        <a class="footer__book" href="https://www.mrsushi.pe" target="_blank" rel="noopener"><img src="assets/img/libro_reclamaciones.webp" alt="Libro de Reclamaciones Virtual" width="130" height="94"></a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- ============ RASPA Y GANA (ventana) ============ -->
+  <div class="scratch" id="scratch" hidden>
+    <div class="scratch__backdrop" data-close></div>
+    <div class="scratch__box" role="dialog" aria-modal="true" aria-labelledby="scratch-title">
+      <button class="scratch__close" type="button" aria-label="Cerrar" data-close>×</button>
+      <p class="scratch__kicker">Código <span id="scratch-code"></span></p>
+      <h2 class="scratch__title" id="scratch-title">¡Raspa y descubre!</h2>
+      <div class="scratch__card">
+        <div class="scratch__prize" id="scratch-prize"></div>
+        <canvas id="scratch-canvas" aria-label="Tarjeta para raspar. Arrastra el dedo o el mouse para descubrir tu premio."></canvas>
+      </div>
+      <p class="scratch__hint" id="scratch-hint">Arrastra el dedo o el mouse sobre la tarjeta</p>
+      <div class="scratch__actions" id="scratch-actions" hidden></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
